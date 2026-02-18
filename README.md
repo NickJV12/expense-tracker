@@ -3,14 +3,6 @@
 A full-stack expense tracking web application built with **React + Vite** on the frontend and **Node.js + Express + MongoDB** on the backend. Supports adding, filtering, and sorting expenses with built-in idempotency to handle duplicate submissions gracefully.
 
 ---
-
-## Preview
-
-> Add a screenshot of your app here once deployed.  
-> `![App Preview](./preview.png)`
-
----
-
 ## Features
 
 - **Add expenses** with amount, category, description, and date
