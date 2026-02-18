@@ -2,9 +2,6 @@
 
 A full-stack expense tracking web application built with **React + Vite** on the frontend and **Node.js + Express + MongoDB** on the backend. Supports adding, filtering, and sorting expenses with built-in idempotency to handle duplicate submissions gracefully.
 
-🔗 **Live Demo:** [expense-tracker-yourname.vercel.app](https://expense-tracker-yourname.vercel.app)
-🔗 **API Base URL:** [expense-tracker-backend.onrender.com](https://expense-tracker-backend.onrender.com)
-
 ---
 
 ## Preview
