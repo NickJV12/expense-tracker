@@ -1,4 +1,4 @@
-# 💸 Expense Tracker
+# Expense Tracker
 
 A full-stack expense tracking web application built with **React + Vite** on the frontend and **Node.js + Express + MongoDB** on the backend. Supports adding, filtering, and sorting expenses with built-in idempotency to handle duplicate submissions gracefully.
 
@@ -7,14 +7,14 @@ A full-stack expense tracking web application built with **React + Vite** on the
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Add a screenshot of your app here once deployed.  
 > `![App Preview](./preview.png)`
 
 ---
 
-## ✨ Features
+## Features
 
 - **Add expenses** with amount, category, description, and date
 - **Filter** expenses by category
@@ -26,7 +26,7 @@ A full-stack expense tracking web application built with **React + Vite** on the
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 expense-tracker/
@@ -67,7 +67,7 @@ expense-tracker/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 | Technology | Purpose |
@@ -100,7 +100,7 @@ expense-tracker/
 
 ---
 
-## 🧠 Key Design Decisions
+## Key Design Decisions
 
 ### Why MongoDB?
 - **Flexible schema** — expense categories and metadata can evolve without migrations
@@ -117,7 +117,7 @@ Every `POST /expenses` request must include an `Idempotency-Key` header containi
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### Prerequisites
 
@@ -183,7 +183,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 Base URL (local): `http://localhost:5000`  
 Base URL (production): `https://expense-tracker-backend.onrender.com`
@@ -278,7 +278,7 @@ GET /expenses?category=Transport&sort=date_desc
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 This project is deployed as two separate services:
 
@@ -319,7 +319,7 @@ Both services are connected to this GitHub repository. Every `git push` to `main
 
 ---
 
-## 🔒 Environment Variables
+## Environment Variables
 
 ### Backend (`backend/.env`)
 
@@ -335,11 +335,11 @@ Both services are connected to this GitHub repository. Every `git push` to `main
 |----------|-------------|---------|
 | `VITE_API_URL` | Backend API base URL | `http://localhost:5000` |
 
-> ⚠️ Never commit `.env` files. They are listed in `.gitignore`. Use `.env.example` as a reference template.
+>  Never commit `.env` files. They are listed in `.gitignore`. Use `.env.example` as a reference template.
 
 ---
 
-## 🧪 Testing the API manually
+## Testing the API manually
 
 You can test the API using **Thunder Client** (VS Code extension) or **curl**:
 
@@ -359,7 +359,7 @@ curl "https://expense-tracker-backend.onrender.com/expenses?category=Food"
 
 ---
 
-## 📋 Edge Cases Handled
+## Edge Cases Handled
 
 | Scenario | How it's handled |
 |----------|-----------------|
@@ -371,8 +371,6 @@ curl "https://expense-tracker-backend.onrender.com/expenses?category=Food"
 | Invalid form data | Client-side validation before any API call is made |
 
 ---
-
-## 📝 Engineering Notes
 
 ### Key Design Decisions
 
@@ -410,7 +408,7 @@ curl "https://expense-tracker-backend.onrender.com/expenses?category=Food"
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
